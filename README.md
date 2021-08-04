@@ -7,7 +7,7 @@ implemented to allow the IoT interaction between the users and the remote ESP mi
 
 TThe graphical environment generated at [sanusb.org/espgpio](http://sanusb.org/espgpio) has 30 gpio pins that must be selected by the user to load switching through relays or electronic devices such as LEDs.
 
-Variable b is an even integer represented by the sum of powers of 2 for pinset actuation. Avoid using pin Gpio 1 on Nodemcu ESP8266, which is pin Tx, as it prevents debug serial communication of the program by the serial monitor, and Gpio pins 06 to 11 on the ESP32 Devkit, as they are used for flash recording.
+Variable b is an even integer represented by the sum of 2 raised to the power of pin number for pinset actuation. Avoid using pin Gpio 1 on Nodemcu ESP8266, which is pin Tx, as it prevents debug serial communication of the program by the serial monitor, and Gpio pins 06 to 11 on the ESP32 Devkit, as they are used for flash recording.
  
 If there is any power failure or power outage, then return to normal, the status of the previous pins when the voltage drop is restored, as the status of the pins is updated and consulted in Firebase, which is a bank of persistent data. The user profile name entered on the website  sanusb.org/espgpio may be alphanumeric (for example: sanusb123 or sandrojuca).
 
