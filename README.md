@@ -1,5 +1,5 @@
 # EspGpio[![N|Solid](http://sanusb.blogspot.com.br/favicon.ico)](http://sanusb.org/)
-This project shows an IoT ESP32 and ESP266 microcontrollers pins switching.
+This project makes possible an IoT ESP32 and ESP266 microcontrollers pins switching quikly over the internet.
 
 This project makes it possible an ESP32 and ESP266 microcontrollers pins switching through graphical access with same generic sketch 
 using the website [sanusb.org/espgpio](http://sanusb.org/espgpio). In this project, the free version of Firebase (Google JSON objects Database) was 
