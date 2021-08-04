@@ -1,10 +1,11 @@
 /**********************************************************sanusb.org*************************************************************
-This project shows an ESP32 and ESP266 microcontrollers pins switching for graphical access with same generic sketch 
+his project this project makes it possible an ESP32 and ESP266 microcontrollers pins switching through graphical access with same generic sketch 
 using the website sanusb.org/espgpio. In this project, the free version of Firebase (Google JSON objects Database) was 
 implemented to allow the IoT interaction between the users and the remote ESP microcontrollers.
 
 The graphical environment generated at sanusb.org/gpio has 30 gpio pins that must be selected by the user to
 load switching through relays or electronic devices such as LEDs.
+
 
 Variable b is an even integer represented by the sum of powers of 2 for pinset actuation.
 
