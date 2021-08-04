@@ -1,11 +1,11 @@
 # EspGpio[![N|Solid](http://sanusb.blogspot.com.br/favicon.ico)](http://sanusb.org/)
 This project shows an IoT ESP32 and ESP266 microcontrollers pins switching.
 
-This project for all shows an ESP32 and ESP266 microcontrollers Update Environment for Internet programming with same generic sketch using the website  [sanusb.org/espgpio](http://sanusb.org/espupdate). In this project, the free version of Firebase (Google JSON objects Database) was implemented to generate the cloud update trigger for .bin files. 
+This project for all shows an ESP32 and ESP266 microcontrollers Update Environment for Internet pins switching with same generic sketch using the website  [sanusb.org/espgpio](http://sanusb.org/espgpio). 
 
 This project shows an ESP32 and ESP266 microcontrollers pins switching for graphical access with same generic sketch  using the website [sanusb.org/espgpio](http://sanusb.org/espupdate). In this project, the free version of Firebase (Google JSON objects Database) was  implemented to allow the IoT interaction between the users and the remote ESP microcontrollers.
 
-The graphical environment generated at [sanusb.org/espgpio](http://sanusb.org/espupdate) has 30 gpio pins that must be selected by the user to load switching through relays or electronic devices such as LEDs.
+The graphical environment generated at [sanusb.org/espgpio](http://sanusb.org/espgpio) has 30 gpio pins that must be selected by the user to load switching through relays or electronic devices such as LEDs.
 
 Variable b is an even integer represented by the sum of powers of 2 for pinset actuation. Avoid using pin Gpio 1 on Nodemcu ESP8266, which is pin Tx, as it prevents debug serial communication of the program by the serial monitor, and Gpio pins 06 to 11 on the ESP32 Devkit, as they are used for flash recording.
  
