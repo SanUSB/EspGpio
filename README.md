@@ -48,6 +48,6 @@ http://sanusb.org/espgpio/YourProfile/conf.php in order to confirm the remote pi
  
 Using EspGpio it is not necessary to open ports on the router or enable firewall permissions.
 
-Tutorial: https://youtu.be/qVwPTHlmpDM. See also: https://youtu.be/En_hFO5f4U8.
+Tutorial: https://youtu.be/QrxweDmkUy4 . See also: https://youtu.be/En_hFO5f4U8 .
 
 *Have fun!*
