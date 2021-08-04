@@ -45,7 +45,9 @@ In the installed EspGpio library folder there is an example for testing this pro
 
 
 After the graphical pin switching is finished, the new verification status is sent to 
-http://sanusb.org/espgpio/YourProfile/conf.php in order to confirm the remote pin switching.
+http://sanusb.org/espgpio/YourProfile/conf.php in order to confirm the remote pin switching. Automatic steps illustration:
+
+![](https://github.com/SanUSB/EspCloudUpdate/blob/master/examples/EspUpdateRealTime/steps.png)
  
 Using EspGpio it is not necessary to open ports on the router or enable firewall permissions.
 
