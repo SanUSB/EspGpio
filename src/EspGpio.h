@@ -1,5 +1,5 @@
 /**********************************************************sanusb.org*************************************************************
-This project shows an ESP32 and ESP266 microcontrollers pins switching for graphical access with same generic sketch 
+This project this project makes it possible an ESP32 and ESP266 microcontrollers pins switching through graphical access with same generic sketch 
 using the website sanusb.org/espgpio. In this project, the free version of Firebase (Google JSON objects Database) was 
 implemented to allow the IoT interaction between the users and the remote ESP microcontrollers.
 
