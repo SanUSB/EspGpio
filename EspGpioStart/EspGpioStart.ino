@@ -1,5 +1,5 @@
 //***************This data must be filled in by the user*******************************
-const char* Profile = "----------";  // The same profile name on http://sanusb.org/espupdate
+const char* Profile = "----------";  // The same profile name on http://sanusb.org/espgpio
 const char* ssid = "-----------";   // Wifi 
 const char* password = "-----------";
 //*************************************************************************************
