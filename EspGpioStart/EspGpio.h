@@ -50,6 +50,7 @@ In the installed EspGpio library folder there is an example for testing this pro
 After the graphical pin switching is finished, the new verification status is sent to 
 http://sanusb.org/espgpio/YourProfile/conf.php in order to confirm the remote pin switching.
 
+Tutorial: https://youtu.be/qVwPTHlmpDM. See also: https://youtu.be/En_hFO5f4U8.
 ***********************************************************************************************************************************/
 #ifndef EspGpio_h
 #define EspGpio_h
