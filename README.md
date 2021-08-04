@@ -15,6 +15,7 @@ To install the ESP32 and ESP8266 boards in Arduino IDE, follow these next instru
 Insert into the "Additional Board Manager URLs":
 
 https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 Open the Boards Manager: Go to Tools > Board > Boards Manager: Search for ESP32 and press install button for the "ESP32 by Espressif Systems". Also search for ESP8266 and press install button for the "ESP8266 by ESP8266 Community".
 
 The dependencies of the EspGpio tool are the Firebase libraries. For ESP8266:
