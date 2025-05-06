@@ -6,10 +6,10 @@ https://ingenius.ups.edu.ec/index.php/ingenius/article/view/6294/5637
 This project makes possible an IoT ESP32 and ESP266 microcontrollers pins switching quikly over the internet.
 
 This project makes it possible an ESP32 and ESP266 microcontrollers pins switching through graphical access with same generic sketch 
-using the website [sanusb.org/espgpio](http://sanusb.org/espgpio). In this project, the free version of Firebase (Google JSON objects Database) was 
+using the website [app.sanusb.org/espgpio](https://app.sanusb.org/espgpio). In this project, the free version of Firebase (Google JSON objects Database) was 
 implemented to allow the IoT interaction between the users and the remote ESP microcontrollers.  . 
 
-TThe graphical environment generated at [sanusb.org/espgpio](http://sanusb.org/espgpio) has 30 gpio pins that must be selected by the user to load switching through relays or electronic devices such as LEDs.
+TThe graphical environment generated at [app.sanusb.org/espgpio](https://app.sanusb.org/espgpio) has 30 gpio pins that must be selected by the user to load switching through relays or electronic devices such as LEDs.
 
 Variable b is an even integer represented by the sum of 2 raised to the power of pin number for pinset actuation. Avoid using pin Gpio 1 on Nodemcu ESP8266, which is pin Tx, as it prevents debug serial communication of the program by the serial monitor, and Gpio pins 06 to 11 on the ESP32 Devkit, as they are used for flash recording.
  
