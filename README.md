@@ -22,13 +22,7 @@ https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com
 
 Open the Boards Manager: Go to Tools > Board > Boards Manager: Search for ESP32 and press install button for the "ESP32 by Espressif Systems". Also search for ESP8266 and press install button for the "ESP8266 by ESP8266 Community".
 
-The dependencies of the EspGpio tool are the Firebase libraries. For ESP8266:
-
-https://github.com/SanUSB/Firebase_ESP8266_Client (tested)
-
-or
-
-https://github.com/mobizt/Firebase-ESP8266
+The dependencies of the EspGpio tool are the Firebase libraries. 
 
 
 For ESP32:
@@ -38,6 +32,17 @@ https://github.com/SanUSB/Firebase_ESP32_Client (tested)
 or
 
 https://github.com/mobizt/Firebase-ESP32
+
+
+
+For ESP8266:
+
+https://github.com/SanUSB/Firebase_ESP8266_Client (tested)
+
+or
+
+https://github.com/mobizt/Firebase-ESP8266
+
 
 To install all the libraries, including https://github.com/SanUSB/EspGpio , follow the steps:
 
