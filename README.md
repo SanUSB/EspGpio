@@ -24,11 +24,19 @@ Open the Boards Manager: Go to Tools > Board > Boards Manager: Search for ESP32 
 
 The dependencies of the EspGpio tool are the Firebase libraries. For ESP8266:
 
+https://github.com/SanUSB/Firebase_ESP8266_Client (tested)
+
+or
+
 https://github.com/mobizt/Firebase-ESP8266
 
+
 For ESP32:
-https://github.com/SanUSB/Firebase_ESP32_Client/ (tested)
+
+https://github.com/SanUSB/Firebase_ESP32_Client (tested)
+
 or
+
 https://github.com/mobizt/Firebase-ESP32
 
 To install all the libraries, including https://github.com/SanUSB/EspGpio , follow the steps:
