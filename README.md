@@ -5,7 +5,7 @@ https://ingenius.ups.edu.ec/index.php/ingenius/article/view/6294/5637
 
 This project makes possible an IoT ESP32 and ESP266 microcontrollers pins switching quikly over the internet.
 
-This project makes it possible an ESP32 and ESP266 microcontrollers pins switching through graphical access with same generic sketch 
+This project makes it possible an ESP32 microcontrollers pins switching through graphical access with same generic sketch 
 using the website [app.sanusb.org/espgpio](https://app.sanusb.org/espgpio). In this project, the free version of Firebase (Google JSON objects Database) was 
 implemented to allow the IoT interaction between the users and the remote ESP microcontrollers.  . 
 
@@ -20,31 +20,10 @@ Insert into the "Additional Board Manager URLs":
 
 https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-Open the Boards Manager: Go to Tools > Board > Boards Manager: Search for ESP32 and press install button for the "ESP32 by Espressif Systems". Also search for ESP8266 and press install button for the "ESP8266 by ESP8266 Community".
-
-The dependencies of the EspGpio tool are the Firebase libraries. 
+Open the Boards Manager: Go to Tools > Board > Boards Manager: Search for ESP32 and press install button for the "ESP32 by Espressif Systems". 
 
 
-For ESP32:
-
-https://github.com/SanUSB/Firebase_ESP32_Client (tested)
-
-or
-
-https://github.com/mobizt/Firebase-ESP32
-
-
-
-For ESP8266:
-
-https://github.com/SanUSB/Firebase_ESP8266_Client (tested)
-
-or
-
-https://github.com/mobizt/Firebase-ESP8266
-
-
-To install all the libraries, including https://github.com/SanUSB/EspGpio , follow the steps:
+To install EspGpio download https://github.com/SanUSB/EspGpio and follow the steps:
 
 Arduino IDE -> Sketch -> Include Library -> Add .zip Libraries.
 
@@ -60,6 +39,14 @@ On OSX:
 
   ~/Documents/Arduino/libraries.
 In the installed EspGpio library folder there is an example for testing this proposed tool called EspGpioStart.ino.
+
+The dependencies of the EspGpio tool are the Firebase libraries. 
+
+https://github.com/SanUSB/Firebase_ESP32_Client (old library tested) of https://github.com/mobizt/Firebase-ESP32
+
+
+
+
 
 
 After the graphical pin switching is finished, the new verification status is sent to 
