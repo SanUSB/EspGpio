@@ -4,7 +4,7 @@ https://ingenius.ups.edu.ec/index.php/ingenius/article/view/6294/5636
 
 https://ingenius.ups.edu.ec/index.php/ingenius/article/view/6294/5637
 
-This project makes possible an IoT ESP32 and ESP266 microcontrollers pins switching quikly over the internet.
+This project makes possible an IoT ESP32 microcontrollers pins switching quikly over the internet.
 
 This project makes it possible an ESP32 microcontrollers pins switching through graphical access with same generic sketch 
 using the website [app.sanusb.org/espgpio](https://app.sanusb.org/espgpio). In this project, the free version of Firebase (Google JSON objects Database) was 
