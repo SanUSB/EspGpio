@@ -15,7 +15,7 @@ Variable b is an even integer represented by the sum of 2 raised to the power of
  
 If there is any power failure or power outage, then return to normal, the status of the previous pins when the voltage drop is restored, as the status of the pins is updated and consulted in Firebase, which is a bank of persistent data. The user profile name entered on the website  sanusb.org/espgpio may be alphanumeric (for example: sanusb123 or sandrojuca).
 
-To install the ESP32 and ESP8266 boards in Arduino IDE, follow these next instructions: In your Arduino IDE, go to File> Preferences. 
+To install the ESP32 board in Arduino IDE, follow these next instructions: In your Arduino IDE, go to File> Preferences. 
 Insert into the "Additional Board Manager URLs":
 
 https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
@@ -38,15 +38,14 @@ On Linux:
 On OSX:
 
   ~/Documents/Arduino/libraries.
+
+
 In the installed EspGpio library folder there is an example for testing this proposed tool called EspGpioStart.ino.
 
-The dependencies of the EspGpio tool are the Firebase libraries. 
+
+The source dependencies of the EspGpio tool are the Firebase libraries: 
 
 https://github.com/SanUSB/Firebase_ESP32_Client (old library tested) of https://github.com/mobizt/Firebase-ESP32
-
-
-
-
 
 
 After the graphical pin switching is finished, the new verification status is sent to 
