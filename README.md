@@ -43,7 +43,7 @@ On OSX:
 In the installed EspGpio library folder there is an example for testing this proposed tool called EspGpioStart.ino.
 
 
-The source dependencies of the EspGpio tool are the Firebase libraries: 
+The EspGpio tool already includes dependencies for the Firebase libraries: 
 
 https://github.com/SanUSB/Firebase_ESP32_Client (old library tested) of https://github.com/mobizt/Firebase-ESP32
 
@@ -53,6 +53,10 @@ https://app.sanusb.org/espgpio/YourProfile/conf.php in order to confirm the remo
 
 ![](https://github.com/SanUSB/EspGpio/blob/main/EspGpioStart/espgpio_illustration.png)
  
+The EspGpio tool already includes dependencies for the Firebase libraries: 
+
+https://github.com/SanUSB/Firebase_ESP32_Client (old library tested) of https://github.com/mobizt/Firebase-ESP32
+
 Using EspGpio it is not necessary to open ports on the router or enable firewall permissions.
 
 Tutorial: https://youtu.be/QrxweDmkUy4 . See also: https://youtu.be/En_hFO5f4U8 .
