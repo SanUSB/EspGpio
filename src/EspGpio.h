@@ -82,7 +82,7 @@ int flagOn[40];
     
 int httpCode;
 
-const char* UrlBase = "http://sanusb.org/espgpio/";
+const char* UrlBase = "https://sanusb.org/espgpio/";
 
 #define FIREBASE_HOST "espupdate-4faf8.firebaseio.com/"
 #define FIREBASE_AUTH "fP2VRR2GAfc8uZbuqVVNC8YGvBDbDwOOwWkruhP9"
